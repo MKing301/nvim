@@ -49,6 +49,8 @@ inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 
 call plug#begin("~/.vim/plugged")
  " Plugin Section
+ Plug 'junegunn/vim-easy-align'
+ Plug 'https://github.com/junegunn/vim-github-dashboard.git'
  Plug 'vim-airline/vim-airline-themes'
  Plug 'dracula/vim'
  Plug 'jiangmiao/auto-pairs'
